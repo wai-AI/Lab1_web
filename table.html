@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Таблица</title>
+    <style type="text/css">
+        TD,
+        TH {
+            padding: 3px;
+            /* Поля вокруг содержимого таблицы */
+            border: 1px solid maroon;
+            /* Параметры рамки */
+            text-align: center;
+            /* Выравнивание по левому краю */
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2">РАЗ</td>
+                <td colspan="2">ДВА</td>
+                <td colspan="2">ТРИ</td>
+                <td>ЧОТИРИ</td>              
+            </tr>
+            <tr>
+                <td colspan="4">П'ЯТЬ</td>
+                <td>ВІСІМ</td>           
+            </tr>
+            <tr>
+                <td>ДЕВ'ЯТЬ</td>
+                <td>ДЕСЯТЬ</td>
+                <td rowspan="2">ОДИНАДЦАТЬ</td>
+                <td>ДВАНАДЦЯТЬ</td>
+                <td>ТРИНАДЦЯТЬ</td>
+                <td>ЧОТИРНАДЦЯТЬ</td>
+            </tr>
+            <tr>
+                <td rowspan="2">П'ЯТНАДЦЯТЬ</td>
+                <td>ШІСТНАДЦЯТЬ</td>
+                <td>СІМНАДЦЯТЬ</td>
+                <td rowspan="3" colspan="2">СІМНАДЦЯТЬ</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="3">ВІСІМНАДЦЯТЬ</td>
+                <td style="border: 0; ">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>ДЕВ'ЯТНАДЦЯТЬ</td>
+            </tr>            
+        </tbody>
+    </table>
+</body>
+
+</html>
